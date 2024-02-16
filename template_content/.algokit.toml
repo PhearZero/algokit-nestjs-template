@@ -1,0 +1,3 @@
+[generate.update]
+description = "Update nest application with upstream dependencies"
+path = ".algokit/generate/update"

@@ -1,0 +1,21 @@
+_subdirectory: ./template_content
+
+_tasks:
+  - "npx -p @nestjs/cli nest new -s -g {{project_name}} --directory . -p npm"
+  # TODO: only execute new on fresh copy- "echo {{ _copier_conf|to_json }} > data.json"
+  - "algokit generate update --force"
+
+# questions
+# project_name should never get prompted, AlgoKit should always pass it by convention
+project_name:
+  type: str
+  help: Name for the NestJs Application
+  placeholder: 'api.example.com'
+  default: 'api.example.com'
+
+# Auto determined by algokit-cli from v1.11.3 to allow execution of python script
+# in binary mode.
+python_path:
+  type: str
+  help: Path to the sys.executable.
+  when: false

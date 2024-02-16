@@ -1,0 +1,7 @@
+# TODO: Find the location of the contract and generate the client
+_tasks:
+  - "node ./.algokit/generate/update/run.js"
+_exclude:
+  - "run.js"
+  - "deltas.json"
+  - "copier.yaml"
