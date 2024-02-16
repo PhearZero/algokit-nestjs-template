@@ -29,7 +29,7 @@
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
-    "@algokit/cli": "1.11.3",
+    "@algokit/cli": "github:awesome-algorand/npm-algokit-cli",
     "@nestjs/cli": "^10.0.0",
     "@nestjs/schematics": "^10.0.0",
     "@nestjs/testing": "^10.0.0",
