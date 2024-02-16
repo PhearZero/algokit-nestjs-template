@@ -4,5 +4,8 @@
   },
   "dependencies": {
     "algosdk": "^2.7.0"
+  },
+  "devDependencies": {
+    "@algokit/cli": "1.11.3"
   }
 }
