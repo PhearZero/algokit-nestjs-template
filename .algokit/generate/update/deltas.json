@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "algokit": "algokit"
+  },
+  "dependencies": {
+    "algosdk": "^2.7.0"
+  }
+}
